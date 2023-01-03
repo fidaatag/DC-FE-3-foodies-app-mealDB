@@ -221,32 +221,8 @@ class NavBar extends HTMLElement {
                     </div>
                 </div>
             </nav>
-        `;
-
-        // console.log(this.shadowDOM.querySelector('#icon-menu'));
-        
-        
-        // const iconMenu = this.shadowDOM.querySelector('#menu-icon');
-        // const navbar = this.shadowDOM.querySelector('nav ul');
-
-        // iconMenu.onclick = () => {
-        //     iconMenu.classList.toggle('bx-x');
-        //     navbar.classList.toggle('open');
-        // }
-                
-
+        `;              
     }
 }
 
 customElements.define('nav-bar', NavBar);
-
-
-// const iconMenu = document.querySelector('#menu-icon');
-// const navbar = document.querySelector('nav ul');
-
-// console.log(iconMenu);
-
-// iconMenu.onclick = () => {
-//     iconMenu.classList.toggle('bx-x');
-//     navbar.classList.toggle('open');
-// }
